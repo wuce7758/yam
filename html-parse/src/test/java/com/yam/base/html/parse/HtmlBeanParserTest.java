@@ -33,12 +33,12 @@ public class HtmlBeanParserTest {
 	
 	@Test
 	public void testParseUrlToObject() {
-		testParseUrlByTag("baidu-app-info-map");
+		testParseUrlByTag("app-info");
 	}
 	
 	@Test
 	public void testParseUrlToMap() {
-		testParseUrlByTag("baidu-app-info");
+		testParseUrlByTag("app-info-map");
 	}
 	
 	private void testParseUrlByTag(String tag) {

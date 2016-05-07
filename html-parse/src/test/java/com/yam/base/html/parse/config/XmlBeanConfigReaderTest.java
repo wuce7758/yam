@@ -36,7 +36,7 @@ public class XmlBeanConfigReaderTest {
 		Map<String, ParseBeanConfig> beanConfigMap = configReader.getConfigMap();
 		TestCase.assertNotNull(beanConfigMap);
 		
-		ParseBeanConfig beanConfig = beanConfigMap.get("baidu-app-info");
+		ParseBeanConfig beanConfig = beanConfigMap.get("app-info");
 		TestCase.assertNotNull(beanConfig);
 		
 		Map<String, ParseMethodConfig> methodConfigMap = beanConfig.getMethodMap();

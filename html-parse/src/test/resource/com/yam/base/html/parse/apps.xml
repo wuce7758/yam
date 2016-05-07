@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html-beans>
 	<bean-info>
-		<tag name='baidu-app-info'/>
+		<tag name='app-info'/>
 		<class name='com.yam.base.html.parse.AppInfo'/>
 		<method name='name' expression='class:app-info->class:title->text' ignore-error='false'/>
 		<method name='packageName' expression='class:app-info->class:download-wp->tag:a->attr:data-pn' ignore-error='false'/>
@@ -11,7 +11,7 @@
 	</bean-info>
 	
 	<bean-info>
-		<tag name='baidu-app-info-map'/>
+		<tag name='app-info-map'/>
 		<class name='map'/>
 		<method name='name' expression='class:app-info->class:title->text' ignore-error='false'/>
 		<method name='packageName' expression='class:app-info->class:download-wp->tag:a->attr:data-pn' ignore-error='false'/>
